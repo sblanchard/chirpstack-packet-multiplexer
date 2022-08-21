@@ -1,6 +1,14 @@
 version: "3"
 services:
   chirpstack-packet-multiplexer:
+    expose:
+      - "1700/udp"
+    ports:
+    - target: 1700
+      host_ip: 127.0.0.1
+      published: 1700
+      protocol: udp
+      mode: host
     build:
       context: .
       dockerfile: Dockerfile-devel
