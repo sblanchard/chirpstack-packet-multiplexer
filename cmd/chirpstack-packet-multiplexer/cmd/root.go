@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"io/ioutil"
 
-	"github.com/brocaar/chirpstack-packet-multiplexer/internal/config"
+	"github.com/sblanchard/chirpstack-packet-multiplexer/internal/config"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"

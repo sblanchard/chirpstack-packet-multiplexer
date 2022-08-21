@@ -1,6 +1,6 @@
 package main
 
-import "github.com/brocaar/chirpstack-packet-multiplexer/cmd/chirpstack-packet-multiplexer/cmd"
+import "github.com/sblanchard/chirpstack-packet-multiplexer/cmd/chirpstack-packet-multiplexer/cmd"
 
 var version string // set by the compiler
 
