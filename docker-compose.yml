@@ -6,7 +6,7 @@ services:
     ports:
     - target: 1700
       host_ip: 127.0.0.1
-      published: 1700
+      published: 1700/udp
       protocol: udp
       mode: host
     build:
