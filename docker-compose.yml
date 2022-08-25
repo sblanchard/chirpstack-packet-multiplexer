@@ -4,11 +4,7 @@ services:
     expose:
       - "1700/udp"
     ports:
-    - target: 1700
-      host_ip: 127.0.0.1
-      published: 1700/udp
-      protocol: udp
-      mode: host
+    - 1700/udp    
     build:
       context: .
       dockerfile: Dockerfile-devel
